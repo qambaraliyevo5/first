@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.wrapper    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+gap: 30px   ;
+padding-top: 80px;
+background-color: darkgray;
+height: 100vh;
+}
+.card1{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    display: flex;
+align-items: center;
+    flex-direction: column;
+}
+.card1>img{
+    width: 250px;
+    height: 220px;
+   
+}
+.card2{
+    width: 300px;
+    height: 450px;
+    background-color: white;   
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+ 
+}
+.card2>img{
+    width: 250px;
+    height: 220px;
+    padding-right: 10px;
+}
+.card3{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+.card3>img{
+    width: 250px;
+    height: 220px;
+}
+.card2>b{
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+.card1>b{
+    color: lawngreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+}
+.card3>b    {
+    color: rgb(6, 166, 155);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+}
+.card3>p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card1>p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card2>p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card1img{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px   ;
+    color: red; 
+    padding-top: 50px;
+
+}
+.card2img{
+    display: flex;
+    gap: 30px   ;
+    color: lawngreen;
+    padding-top: 50px;
+}
+.card3img{
+    display: flex;
+    gap: 30px   ;
+    color:rgb(6, 166, 155) ;
+    padding-top: 50px;
+}
+.cardimg :hover{
+    transform: scaleX(1.5);
+    transition: all 1s ease-in;
+}
+
+
+
+
+
